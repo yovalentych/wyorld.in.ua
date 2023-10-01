@@ -1,0 +1,46 @@
+.left {
+  width: 50%;
+  padding: 20px;
+  display: block;
+}
+
+.accordion {
+  width: 95%;
+  background-color: rgba(rgb(170, 167, 167), 0.5);
+}
+
+.alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 1120px) {
+  /* Styles for screens with a maximum width of 768px (tablets and below) */
+  body {
+    font-size: 16px;
+  }
+  main {
+    display: block;
+  }
+  .left {
+    width: 100%;
+  }
+  .alphabet {
+    display: block;
+  }
+}
